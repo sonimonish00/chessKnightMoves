@@ -82,7 +82,8 @@ document.querySelector('#chesstable')
     }
     var cordinate = x+y
     if(finalCordinates) {
-        alert("Knight Moves on : " +cordinate +" >>>>>>>>>>>>>"+finalCordinates)
+        // alert("Knight Moves on : " +cordinate +" >>>>>>>>>>>>>"+finalCordinates)
+        swal("Knight Moves on : ", cordinate +" ======>>> " +finalCordinates, "success");
     }
 });
 
